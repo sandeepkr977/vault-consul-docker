@@ -1,0 +1,20 @@
+{
+    "backend": {
+      "consul": {
+        "address": "consul-client-1:8500",
+        "path": "vault/",
+        "service":"vault-service",
+        "scheme": "http",
+        "token":"815a6116-03e8-d518-a826-1084aba8d775"
+      }
+    },
+    "listener": {
+      "tcp":{
+        "address": "0.0.0.0:8200",
+        "tls_disable": 1
+      }
+    },
+    "ui": true,
+    "default_lease_ttl": "168h",
+	  "max_lease_ttl": "720h"
+  }

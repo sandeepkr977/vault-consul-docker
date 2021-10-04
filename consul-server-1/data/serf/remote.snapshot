@@ -1,0 +1,30 @@
+alive: consul-server-1.data-center-1 172.23.0.2:8302
+alive: consul-server-1.data-center-1 172.24.0.2:8302
+alive: consul-server-1.data-center-1 172.25.0.2:8302
+alive: consul-server-1.data-center-1 172.26.0.3:8302
+alive: consul-server-1.data-center-1 172.27.0.3:8302
+alive: consul-server-2.data-center-1 172.27.0.2:8302
+clock: 1
+alive: consul-server-1.data-center-1 172.27.0.3:8302
+alive: consul-server-2.data-center-1 172.27.0.2:8302
+alive: consul-server-1.data-center-1 172.28.0.2:8302
+alive: consul-server-2.data-center-1 172.28.0.3:8302
+clock: 2
+alive: consul-server-1.data-center-1 172.29.0.2:8302
+alive: consul-server-2.data-center-1 172.29.0.3:8302
+clock: 3
+alive: consul-server-1.data-center-1 172.30.0.3:8302
+alive: consul-server-2.data-center-1 172.30.0.2:8302
+clock: 4
+alive: consul-server-1.data-center-1 192.168.48.3:8302
+alive: consul-server-2.data-center-1 192.168.48.2:8302
+clock: 5
+alive: consul-server-1.data-center-1 192.168.80.2:8302
+alive: consul-server-2.data-center-1 192.168.80.3:8302
+clock: 7
+alive: consul-server-1.data-center-1 192.168.96.3:8302
+alive: consul-server-2.data-center-1 192.168.96.2:8302
+clock: 9
+alive: consul-server-1.data-center-1 192.168.112.2:8302
+alive: consul-server-2.data-center-1 192.168.112.3:8302
+clock: 10

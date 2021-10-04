@@ -1,0 +1,21 @@
+{
+    "node_name": "consul-server-2",
+    "datacenter": "data-center-1",
+    "data_dir": "/consul/data",
+    "log_level": "DEBUG",
+    "server": true,
+    "ui": true,
+    "encrypt":"9v1ObBsxWT9WNgkQnfvQJwyNjAqj0GZN5X3u3XZhs4Y=",
+    "retry_join": ["consul-server-1", "consul-server-2"],
+    "acl": {
+      "enabled": true,
+      "default_policy": "deny",
+      "enable_token_persistence": true
+    },
+    "ca_file": "/consul-certificate/consul-agent-ca.pem",
+    "cert_file": "/consul-certificate/data-center-1-server-consul-0.pem",
+    "key_file": "/consul-certificate/data-center-1-server-consul-0-key.pem",
+    "verify_incoming": true,
+    "verify_outgoing": true,
+    "verify_server_hostname": true
+  }
